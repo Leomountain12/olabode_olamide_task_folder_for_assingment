@@ -1,0 +1,21 @@
+#task4
+empty = []
+client =input("Dear customer kindly input 5 name enter 1 to proceed:")
+one = input('input first name:')
+second = input('input second name:')
+third = input('input third name:')
+fourth = input('input fourth name:')
+fifth = input('input fifth name:')
+empty.append(one)
+empty.append(second)
+empty.append(third)
+empty.append(fourth)
+empty.append(fifth)
+one.lower()
+second.lower()
+third.lower()
+fourth.lower()
+fifth.lower()
+space = (" ".join(empty))
+
+print(space)

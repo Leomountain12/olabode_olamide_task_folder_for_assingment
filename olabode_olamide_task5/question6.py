@@ -1,0 +1,13 @@
+#task6
+days = ("monday, tuesday , wednessday , thursday , friday")
+print(f"{days}")
+months = ("january,february,march,april,may,june,july,august,september,octomber,november,december")
+print(f"{months}")
+request = ('Dear customer you are welcome to leo input')
+name = input("input your name:")
+gender = input("input gender:")
+course = input("input course track")
+month_nim = int(input("current month umber:"))
+dayd_num = int(input('current days number:'))
+all = (name, gender, course, month_nim, dayd_num)
+print(f"{all}")

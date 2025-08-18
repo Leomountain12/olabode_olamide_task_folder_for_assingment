@@ -1,0 +1,10 @@
+#task 1
+request = input("Dear customer kindly enter 5 from nigeria favourite dish pres 1 to continue:")
+one = input("input number 1:")
+two = input("input number 2:")
+three = input("input number 3:")
+four = input("input number 4:")
+five = input("input number 5:")
+dish =(one,two,three,four,five)
+print(dish)
+print(f"{one}\n{two}\n{three}\n{four}\n{five}")
